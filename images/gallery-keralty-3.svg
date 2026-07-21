@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Wireframes y mockups">
+  <defs>
+    <linearGradient id="g12" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d2620"/>
+      <stop offset="100%" stop-color="#28907a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g12)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="485" y="137" width="248" height="36" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="682" y="179" width="116" height="32" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="11" y="191" width="203" height="28" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="658" y="414" width="197" height="39" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="233" y="285" width="80" height="39" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Wireframes y mockups</text>
+</svg>

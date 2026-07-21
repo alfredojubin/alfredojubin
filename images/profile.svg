@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Retrato de perfil de Alfredo Jubín">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B45"/>
+      <stop offset="55%" stop-color="#3FBFA6"/>
+      <stop offset="100%" stop-color="#191C22"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#111318"/>
+  <circle cx="200" cy="200" r="170" fill="url(#pg)"/>
+  <circle cx="200" cy="170" r="62" fill="#111318" opacity="0.85"/>
+  <path d="M90 330 C90 250 310 250 310 330 L310 400 L90 400 Z" fill="#111318" opacity="0.85"/>
+</svg>

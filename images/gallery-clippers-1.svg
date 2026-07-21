@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Sistema de componentes UI">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c1520"/>
+      <stop offset="100%" stop-color="#1c2b3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g4)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="241" y="155" width="106" height="32" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="490" y="79" width="103" height="22" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="20" y="205" width="220" height="29" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="60" y="113" width="213" height="37" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="368" y="141" width="124" height="23" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Sistema de componentes UI</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Diseño responsivo cross-device">
+  <defs>
+    <linearGradient id="g9" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d2b3a"/>
+      <stop offset="100%" stop-color="#237e6c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g9)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="474" y="313" width="175" height="28" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="141" y="95" width="253" height="20" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="346" y="257" width="198" height="39" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="82" y="171" width="221" height="39" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="41" y="372" width="177" height="25" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Diseño responsivo cross-device</text>
+</svg>

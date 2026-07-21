@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="UI — flujos de transferencia">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a0b0e"/>
+      <stop offset="100%" stop-color="#8f1f1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g2)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="57" y="46" width="101" height="31" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="173" y="376" width="251" height="29" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="257" y="310" width="134" height="39" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="36" y="297" width="254" height="25" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="441" y="326" width="180" height="36" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">UI — flujos de transferencia</text>
+</svg>

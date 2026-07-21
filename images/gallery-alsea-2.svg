@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Componentes multimarca">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a2230"/>
+      <stop offset="100%" stop-color="#1f6b5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g8)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="232" y="189" width="176" height="24" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="197" y="360" width="91" height="22" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="140" y="126" width="209" height="26" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="410" y="328" width="87" height="34" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="499" y="232" width="179" height="35" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Componentes multimarca</text>
+</svg>

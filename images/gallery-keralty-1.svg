@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Research — stakeholders">
+  <defs>
+    <linearGradient id="g10" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d2620"/>
+      <stop offset="100%" stop-color="#1a4d40"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g10)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="585" y="16" width="189" height="35" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="591" y="7" width="132" height="34" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="503" y="421" width="151" height="40" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="164" y="17" width="213" height="35" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="335" y="38" width="143" height="31" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Research — stakeholders</text>
+</svg>

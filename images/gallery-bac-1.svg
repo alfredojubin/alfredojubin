@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Motion — auditoría de transiciones">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a0d10"/>
+      <stop offset="100%" stop-color="#7a1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="640" fill="url(#g1)"/>
+  <rect x="60" y="60" width="780" height="520" rx="18" fill="rgba(17,19,24,0.35)"/>
+  <rect x="137" y="291" width="96" height="28" rx="8" fill="rgba(255,255,255,0.08)"/><rect x="120" y="253" width="195" height="35" rx="8" fill="rgba(255,255,255,0.13)"/><rect x="667" y="194" width="133" height="23" rx="8" fill="rgba(255,255,255,0.18)"/><rect x="499" y="14" width="179" height="33" rx="8" fill="rgba(255,255,255,0.23000000000000004)"/><rect x="622" y="390" width="80" height="34" rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="90" y="560" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" fill="rgba(255,255,255,0.8)">Motion — auditoría de transiciones</text>
+</svg>

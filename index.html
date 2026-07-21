@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alfredo Jubín — UX/UI Designer</title>
+<meta name="description" content="Portfolio of Alfredo Jubín, UX/UI Designer based in Montevideo, Uruguay. Digital product, motion design and design systems work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#contenido">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="nav__logo" href="index.html">Alfredo Jubín</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <span></span>
+    </button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html" aria-current="page">Portfolio</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="#contacto">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="contenido">
+  <section class="hero container">
+    <p class="eyebrow">UX/UI Designer · Montevideo, Uruguay</p>
+    <h1>Designing digital products with <span class="hero__role">functional clarity</span> and aesthetic sensibility.</h1>
+    <p class="hero__tagline">I'm Alfredo Jubín, a UX/UI Designer with 15+ years of experience creating digital products that combine functional clarity with aesthetic sensibility.</p>
+    <p class="hero__tagline">I specialize in designing complex systems — from fintech applications to public service portals — always starting from real user research and ending with interfaces that solve concrete problems.</p>
+    <div class="hero__meta">
+      <span><strong>15+ years</strong> of experience</span>
+      <span><strong>4</strong> different industries</span>
+    </div>
+  </section>
+
+  <section class="section container" aria-labelledby="proyectos-heading">
+    <div class="section__head reveal">
+      <h2 id="proyectos-heading">Recent <em>projects</em></h2>
+      <p>A walk through research processes, design systems and motion work, on products already in the hands of real users.</p>
+    </div>
+    <div class="grid-projects" data-project-grid role="list" aria-label="Project list"></div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contacto">
+  <div class="container footer-inner">
+    <ul class="footer-links">
+      <li><a href="mailto:hola@alfredojubin.com">Email</a></li>
+      <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://behance.net" target="_blank" rel="noopener noreferrer">Behance</a></li>
+      <li><a href="about.html">About me</a></li>
+    </ul>
+    <p class="footer-note">Alfredo Jubín — Portfolio © 2026</p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
