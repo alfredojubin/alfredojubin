@@ -18,6 +18,15 @@ function initNav() {
 }
 
 // ---------------------------------------------------------------------
+// Language toggle: keep the current project (?id=...) when switching to ES
+// ---------------------------------------------------------------------
+function initLangToggle() {
+  const link = document.querySelector(".nav__lang");
+  if (!link) return;
+  link.href += window.location.search;
+}
+
+// ---------------------------------------------------------------------
 // Scroll reveal
 // ---------------------------------------------------------------------
 function initReveal() {
@@ -71,6 +80,7 @@ function renderProjectCards() {
 
 document.addEventListener("DOMContentLoaded", () => {
   initNav();
+  initLangToggle();
   renderProjectCards();
   initReveal();
 });
