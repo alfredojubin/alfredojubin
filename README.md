@@ -55,3 +55,4 @@ The LA Clippers project currently reuses its home-page thumbnail as both hero an
 - Keyboard-operable nav menu, with `aria-expanded` on the hamburger button.
 - `prefers-reduced-motion` respected: reveal/scroll animations only run if the user hasn't asked to reduce motion.
 - Text contrast checked against the dark background (coral is used for large headings/accents/links, not small body copy).
+
