@@ -15,13 +15,13 @@ const PROJECTS = [
   {
     id: "bac",
     order: 1,
-    title: "BAC",
+    title: "App Bancaria",
     category: "App móvil · Motion Design",
-    client: "BAC — Banco centroamericano",
+    client: "App Bancaria — Banco centroamericano",
     role: "Diseñador Visual, enfocado en Motion Design",
     year: "2025 — 2026",
     summary:
-      "Animaciones, transiciones y micro-interacciones para la app de banca móvil de BAC en Centroamérica.",
+      "Animaciones, transiciones y micro-interacciones para la app de banca móvil de un banco centroamericano.",
     problem:
       "La app bancaria necesitaba transiciones y estados de carga más claros: el equipo tenía criterios dispersos para animar cambios de pantalla, flujos de onboarding y confirmaciones sensibles como las transferencias de dinero.",
     process: [
@@ -53,16 +53,16 @@ const PROJECTS = [
     heroImage: "../images/real/bac-hero.gif",
     galleryColumns: 1,
     gallery: [
-      { src: "../images/real/bac-gallery-1.png", alt: "Pantallas de onboarding y cuenta de la app móvil de BAC" },
-      { src: "../images/real/bac-gallery-2.png", alt: "Flujo de transferencias de BAC, paso a paso" }
+      { src: "../images/real/bac-gallery-1.png", alt: "Pantallas de onboarding y cuenta de la App Bancaria" },
+      { src: "../images/real/bac-gallery-2.png", alt: "Flujo de transferencias de la App Bancaria, paso a paso" }
     ]
   },
   {
     id: "clippers",
     order: 2,
-    title: "LA Clippers",
+    title: "NBA Experience App",
     category: "App móvil · UI y sistema de diseño",
-    client: "LA Clippers — Intuit Dome, Estados Unidos",
+    client: "NBA Experience App — Intuit Dome, Estados Unidos",
     role: "Diseñador Visual",
     year: "2023 — 2024",
     summary:
@@ -96,25 +96,25 @@ const PROJECTS = [
     caseStudy: {
       thumb: "../images/real/clippers-case-thumb.jpg",
       full: "../images/real/clippers-case-full.jpg",
-      alt: "Documento completo del caso de estudio del proceso de diseño de LA Clippers Intuit Dome"
+      alt: "Documento completo del caso de estudio del proceso de diseño de NBA Experience App Intuit Dome"
     }
   },
   {
     id: "alsea",
     order: 3,
-    title: "Alsea",
+    title: "Multi-Brand Restaurant Platform",
     category: "Web · Sistema de diseño multimarca",
-    client: "Alsea — España",
+    client: "Multi-Brand Restaurant Platform — España",
     role: "Diseñador Visual",
     year: "2023",
     summary:
-      "Un sistema de diseño escalable para las múltiples marcas de restaurantes operadas por Alsea.",
+      "Un sistema de diseño escalable para las múltiples marcas de restaurantes operadas por un grupo gastronómico global.",
     problem:
-      "Alsea opera marcas globales como Starbucks, Domino's Pizza y Burger King. Cada una necesitaba sus propios assets e interfaces, pero el equipo necesitaba una base compartida para mantener consistencia, usabilidad y velocidad de producción entre marcas.",
+      "El grupo opera varias marcas globales de restaurantes. Cada una necesitaba sus propios assets e interfaces, pero el equipo necesitaba una base compartida para mantener consistencia, usabilidad y velocidad de producción entre marcas.",
     process: [
       {
         title: "Comprensión y contexto",
-        text: "Investigación del modelo de negocio de Alsea: experiencia del cliente, adaptación local del producto y sostenibilidad como pilares centrales de la propuesta."
+        text: "Investigación del modelo de negocio del grupo: experiencia del cliente, adaptación local del producto y sostenibilidad como pilares centrales de la propuesta."
       },
       {
         title: "Librerías",
@@ -141,7 +141,7 @@ const PROJECTS = [
     heroBorder: false,
     galleryColumns: 1,
     gallery: [
-      { src: "../images/real/alsea-gallery-1.jpg", alt: "Librería de componentes de tarjetas y banners de campaña de Alsea Club-by" },
+      { src: "../images/real/alsea-gallery-1.jpg", alt: "Librería de componentes de tarjetas y banners de campaña de Club-by" },
       { src: "../images/real/alsea-gallery-2.jpg", alt: "Landing page responsiva de Club-by en laptop y mobile" },
       { src: "../images/real/alsea-gallery-3.jpg", alt: "Pantallas de la app móvil de Club-by con menús y contenido de VIPS" }
     ]
@@ -149,9 +149,9 @@ const PROJECTS = [
   {
     id: "keralty",
     order: 4,
-    title: "Keralty",
+    title: "Healthcare Platform",
     category: "App + Web · Investigación UX y UI",
-    client: "Keralty — grupo de salud basado en valor, Colombia",
+    client: "Healthcare Platform — grupo de salud basado en valor, Colombia",
     role: "Diseñador Visual y UX",
     year: "2021 — 2022",
     summary:
@@ -189,21 +189,21 @@ const PROJECTS = [
     caseStudy: {
       thumb: "../images/real/keralty-case-thumb.jpg",
       full: "../images/real/keralty-case-full.jpg",
-      alt: "Documento completo del caso de estudio de investigación UX y diseño de Keralty"
+      alt: "Documento completo del caso de estudio de investigación UX y diseño de Healthcare Platform"
     }
   },
   {
     id: "corphub",
     order: 5,
-    title: "Corporate HUB",
+    title: "Enterprise AI Data Platform",
     category: "Plataforma web · UX/UI empresarial",
-    client: "Glob.AI OS — sistema operativo empresarial de IA de Globant",
+    client: "Enterprise AI Data Platform — sistema operativo empresarial de IA de Globant",
     role: "Diseñador UX/UI",
     year: "2026",
     summary:
       "Diseño de la columna vertebral de gobierno de datos para IA empresarial: una iniciativa UX/UI de alcance completo, desde el PRD en blanco hasta el prototipo interactivo.",
     problem:
-      "CorpHub es la capa de infraestructura de datos de Glob.AI OS. Sin ella, cada equipo gestionaba sus datos de forma aislada —esquemas inconsistentes, sin trazabilidad, sin reutilización—. El objetivo era diseñar toda la aplicación web, desde la pantalla de inicio y la arquitectura de navegación hasta cada área funcional, trabajando directamente a partir de los PRD, para que los datos pudieran convertirse en un producto gobernado: publicado una vez, consumido en todas partes tanto por personas como por agentes de IA.",
+      "El Enterprise AI Data Platform es la capa de infraestructura de datos del sistema operativo empresarial de IA de Globant. Sin ella, cada equipo gestionaba sus datos de forma aislada —esquemas inconsistentes, sin trazabilidad, sin reutilización—. El objetivo era diseñar toda la aplicación web, desde la pantalla de inicio y la arquitectura de navegación hasta cada área funcional, trabajando directamente a partir de los PRD, para que los datos pudieran convertirse en un producto gobernado: publicado una vez, consumido en todas partes tanto por personas como por agentes de IA.",
     process: [
       {
         title: "Análisis de PRD",
@@ -223,7 +223,7 @@ const PROJECTS = [
       }
     ],
     solution:
-      "Se diseñaron seis módulos centrales desde cero: Data Model (catálogo, visor de esquemas ERD/DDL, versionado con diff, flujo de importación), Data Sets (un wizard de 4 pasos para crear productos de datos a partir de una o más fuentes), Client Data Source (registro de fuentes externas —bases de datos, APIs, SaaS y servidores MCP—), Data Store (unidades de almacenamiento aprovisionadas con listado de catálogo y vista de detalle), Ontologies (una capa semántica para conceptos empresariales con relaciones entre entidades y clasificación por dominio), y Home & Navigation (la pantalla de inicio, el sidebar, la topbar global y toda la arquitectura de navegación de Glob.AI OS). Claude estuvo integrado en el flujo de trabajo de principio a fin: un proyecto dedicado reunía cada PRD, spec y nota de reunión como contexto compartido, se usó para identificar contradicciones de alcance y generar listas de preguntas para el PM, potenció el prototipado rápido e interactivo en HTML directamente sobre los tokens de diseño de CorpHub, y ayudó a preparar preguntas técnicas precisas antes de las reuniones de sincronización con ingeniería.",
+      "Se diseñaron seis módulos centrales desde cero: Data Model (catálogo, visor de esquemas ERD/DDL, versionado con diff, flujo de importación), Data Sets (un wizard de 4 pasos para crear productos de datos a partir de una o más fuentes), Client Data Source (registro de fuentes externas —bases de datos, APIs, SaaS y servidores MCP—), Data Store (unidades de almacenamiento aprovisionadas con listado de catálogo y vista de detalle), Ontologies (una capa semántica para conceptos empresariales con relaciones entre entidades y clasificación por dominio), y Home & Navigation (la pantalla de inicio, el sidebar, la topbar global y toda la arquitectura de navegación de la plataforma). Claude estuvo integrado en el flujo de trabajo de principio a fin: un proyecto dedicado reunía cada PRD, spec y nota de reunión como contexto compartido, se usó para identificar contradicciones de alcance y generar listas de preguntas para el PM, potenció el prototipado rápido e interactivo en HTML directamente sobre los tokens de diseño del Enterprise AI Data Platform, y ayudó a preparar preguntas técnicas precisas antes de las reuniones de sincronización con ingeniería.",
     results: [
       "Más de 6 áreas funcionales diseñadas desde cero, cada una con su propio prototipo interactivo en HTML antes de la entrega en Figma.",
       "Investigación de usuarios cubriendo 6 perfiles: Data Engineer, PM, Agent Builder, Data Scientist, Tech Manager y Security.",
@@ -236,7 +236,7 @@ const PROJECTS = [
     caseStudy: {
       thumb: "../images/real/corphub-case-thumb.jpg",
       full: "../images/real/corphub-case-full.jpg",
-      alt: "Documento completo del caso de estudio del proceso de diseño de Corporate HUB (Glob.AI OS)"
+      alt: "Documento completo del caso de estudio del proceso de diseño de Enterprise AI Data Platform"
     }
   }
 ];

@@ -15,13 +15,13 @@ const PROJECTS = [
   {
     id: "bac",
     order: 1,
-    title: "BAC",
+    title: "Banking App",
     category: "Mobile app · Motion Design",
-    client: "BAC — Central American Bank",
+    client: "Banking App — Central American Bank",
     role: "Visual Designer, focused on Motion Design",
     year: "2025 — 2026",
     summary:
-      "Animations, transitions and micro-interactions for BAC's mobile banking app across Central America.",
+      "Animations, transitions and micro-interactions for a Central American bank's mobile banking app.",
     problem:
       "The banking app needed clearer transitions and loading states: the team had scattered criteria for animating screen changes, onboarding flows and sensitive confirmations like money transfers.",
     process: [
@@ -53,16 +53,16 @@ const PROJECTS = [
     heroImage: "images/real/bac-hero.gif",
     galleryColumns: 1,
     gallery: [
-      { src: "images/real/bac-gallery-1.png", alt: "BAC mobile app onboarding and account screens" },
-      { src: "images/real/bac-gallery-2.png", alt: "BAC transfer flow, step by step" }
+      { src: "images/real/bac-gallery-1.png", alt: "Banking App onboarding and account screens" },
+      { src: "images/real/bac-gallery-2.png", alt: "Banking App transfer flow, step by step" }
     ]
   },
   {
     id: "clippers",
     order: 2,
-    title: "LA Clippers",
+    title: "NBA Experience App",
     category: "Mobile app · UI & Design System",
-    client: "LA Clippers — Intuit Dome, United States",
+    client: "NBA Experience App — Intuit Dome, United States",
     role: "Visual Designer",
     year: "2023 — 2024",
     summary:
@@ -96,25 +96,25 @@ const PROJECTS = [
     caseStudy: {
       thumb: "images/real/clippers-case-thumb.jpg",
       full: "images/real/clippers-case-full.jpg",
-      alt: "Full LA Clippers Intuit Dome design process case study document"
+      alt: "Full NBA Experience App Intuit Dome design process case study document"
     }
   },
   {
     id: "alsea",
     order: 3,
-    title: "Alsea",
+    title: "Multi-Brand Restaurant Platform",
     category: "Web · Multi-brand Design System",
-    client: "Alsea — Spain",
+    client: "Multi-Brand Restaurant Platform — Spain",
     role: "Visual Designer",
     year: "2023",
     summary:
-      "A scalable design system for multiple restaurant brands operated by Alsea.",
+      "A scalable design system for multiple restaurant brands operated by a global food service group.",
     problem:
-      "Alsea operates global brands like Starbucks, Domino's Pizza and Burger King. Each one needed its own assets and interfaces, but the team needed a shared foundation to keep consistency, usability and production speed across brands.",
+      "The group operates several global restaurant brands. Each one needed its own assets and interfaces, but the team needed a shared foundation to keep consistency, usability and production speed across brands.",
     process: [
       {
         title: "Understanding and context",
-        text: "Research into Alsea's business model: customer experience, local product adaptation and sustainability as core pillars of the proposal."
+        text: "Research into the group's business model: customer experience, local product adaptation and sustainability as core pillars of the proposal."
       },
       {
         title: "Libraries",
@@ -141,7 +141,7 @@ const PROJECTS = [
     heroBorder: false,
     galleryColumns: 1,
     gallery: [
-      { src: "images/real/alsea-gallery-1.jpg", alt: "Alsea Club-by campaign card and banner component library" },
+      { src: "images/real/alsea-gallery-1.jpg", alt: "Club-by campaign card and banner component library" },
       { src: "images/real/alsea-gallery-2.jpg", alt: "Club-by responsive landing page across laptop and mobile" },
       { src: "images/real/alsea-gallery-3.jpg", alt: "Club-by mobile app screens across VIPS menus and content" }
     ]
@@ -149,9 +149,9 @@ const PROJECTS = [
   {
     id: "keralty",
     order: 4,
-    title: "Keralty",
+    title: "Healthcare Platform",
     category: "App + Web · UX Research & UI",
-    client: "Keralty — value-based healthcare group, Colombia",
+    client: "Healthcare Platform — value-based healthcare group, Colombia",
     role: "Visual & UX Designer",
     year: "2021 — 2022",
     summary:
@@ -189,21 +189,21 @@ const PROJECTS = [
     caseStudy: {
       thumb: "images/real/keralty-case-thumb.jpg",
       full: "images/real/keralty-case-full.jpg",
-      alt: "Full Keralty UX research and design case study document"
+      alt: "Full Healthcare Platform UX research and design case study document"
     }
   },
   {
     id: "corphub",
     order: 5,
-    title: "Corporate HUB",
+    title: "Enterprise AI Data Platform",
     category: "Web platform · Enterprise UX/UI",
-    client: "Glob.AI OS — Globant's enterprise AI operating system",
+    client: "Enterprise AI Data Platform — Globant's enterprise AI operating system",
     role: "UX/UI Designer",
     year: "2026",
     summary:
       "Designing the data governance backbone for enterprise AI: a full-scope UX/UI initiative from blank PRD to interactive prototype.",
     problem:
-      "CorpHub is the data infrastructure layer of Glob.AI OS. Without it, every team managed data in isolation — inconsistent schemas, no lineage, no reuse. The goal was to design the entire web application, from the home screen and navigation architecture through every feature area, working directly from PRDs, so data could become a governed product: published once, consumed everywhere by both humans and AI agents.",
+      "The Enterprise AI Data Platform is the data infrastructure layer of Globant's enterprise AI operating system. Without it, every team managed data in isolation — inconsistent schemas, no lineage, no reuse. The goal was to design the entire web application, from the home screen and navigation architecture through every feature area, working directly from PRDs, so data could become a governed product: published once, consumed everywhere by both humans and AI agents.",
     process: [
       {
         title: "PRD analysis",
@@ -223,7 +223,7 @@ const PROJECTS = [
       }
     ],
     solution:
-      "Six core modules were designed from scratch: Data Model (catalog, ERD/DDL schema viewer, versioning with diff, import flow), Data Sets (a 4-step wizard to create data products from one or more sources), Client Data Source (registration of external sources — databases, APIs, SaaS and MCP servers), Data Store (provisioned storage units with catalog list and detail view), Ontologies (a semantic layer for enterprise concepts with entity relationships and domain classification), and Home & Navigation (the home screen, sidebar, global topbar and full navigation architecture for Glob.AI OS). Claude was woven into the workflow throughout: a dedicated project held every PRD, spec and meeting note as shared context, was used to surface scope contradictions and generate question lists for the PM, powered rapid interactive HTML prototyping directly against CorpHub's design tokens, and helped prepare precise technical questions ahead of engineering syncs.",
+      "Six core modules were designed from scratch: Data Model (catalog, ERD/DDL schema viewer, versioning with diff, import flow), Data Sets (a 4-step wizard to create data products from one or more sources), Client Data Source (registration of external sources — databases, APIs, SaaS and MCP servers), Data Store (provisioned storage units with catalog list and detail view), Ontologies (a semantic layer for enterprise concepts with entity relationships and domain classification), and Home & Navigation (the home screen, sidebar, global topbar and full navigation architecture for the platform). Claude was woven into the workflow throughout: a dedicated project held every PRD, spec and meeting note as shared context, was used to surface scope contradictions and generate question lists for the PM, powered rapid interactive HTML prototyping directly against the Enterprise AI Data Platform's design tokens, and helped prepare precise technical questions ahead of engineering syncs.",
     results: [
       "6+ feature areas designed from scratch, each with its own interactive HTML prototype before Figma handoff.",
       "User research covering 6 profiles: Data Engineer, PM, Agent Builder, Data Scientist, Tech Manager and Security.",
@@ -236,7 +236,7 @@ const PROJECTS = [
     caseStudy: {
       thumb: "images/real/corphub-case-thumb.jpg",
       full: "images/real/corphub-case-full.jpg",
-      alt: "Full Corporate HUB (Glob.AI OS) design process case study document"
+      alt: "Full Enterprise AI Data Platform design process case study document"
     }
   }
 ];

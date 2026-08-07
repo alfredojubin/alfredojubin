@@ -29,14 +29,14 @@ Once deployed, that single URL is the link to send to recruiters — it already 
 All project content lives in one place: **`js/data.js`**.
 1. Copy one of the objects in the `PROJECTS` array.
 2. Give it a unique `id` (no spaces or accents, e.g. `"new-project"`).
-3. Fill in `title`, `category`, `client`, `role`, `year`, `summary`, `problem`, `process` (list of stages), `solution`, `results`, plus either a small `gallery` array or a `caseStudy` object (thumbnail + full document, opens in a modal — see how BAC/Clippers/Keralty/Corporate HUB use it) depending on what you have for that project.
+3. Fill in `title`, `category`, `client`, `role`, `year`, `summary`, `problem`, `process` (list of stages), `solution`, `results`, plus either a small `gallery` array or a `caseStudy` object (thumbnail + full document, opens in a modal — see how Banking App/NBA Experience App/Healthcare Platform/Enterprise AI Data Platform use it) depending on what you have for that project.
 4. Drop the real images into `/images/real` and point `cover`, `heroImage`/`heroVideo` and `gallery`/`caseStudy` to them.
 
 No need to touch `index.html` or `project.html` — both render themselves from `data.js`.
 
 ## About the current images
-The cover, hero and gallery images for BAC, Alsea and Keralty were cropped directly from the screenshots you shared. Since those source screenshots are relatively low resolution, the crops are usable as thumbnails but will look soft if displayed very large — swap them for original high-res exports (Figma frames, real screenshots, etc.) when you have them, keeping the same file names or updating the paths in `data.js`.
-The LA Clippers project currently reuses its home-page thumbnail as both hero and gallery image, since no dedicated case-study screenshot was provided for it yet.
+The cover, hero and gallery images for the Banking App, Multi-Brand Restaurant Platform and Healthcare Platform were cropped directly from the screenshots you shared. Since those source screenshots are relatively low resolution, the crops are usable as thumbnails but will look soft if displayed very large — swap them for original high-res exports (Figma frames, real screenshots, etc.) when you have them, keeping the same file names or updating the paths in `data.js`.
+The NBA Experience App project currently reuses its home-page thumbnail as both hero and gallery image, since no dedicated case-study screenshot was provided for it yet.
 
 ## What's still a placeholder
 - `mailto:hola@alfredojubin.com`, LinkedIn and Behance links in the footer — swap for your real ones in `index.html`, `about.html` and `project.html`.
